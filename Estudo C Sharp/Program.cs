@@ -10,6 +10,7 @@ namespace Estudo_C_Sharp
     {
         static void Main(string[] args)
         {
+            /*
             // Variváveis
             // Int - -156 como 32584
             // Float - -15.6 como 232.123 ==> Double | Decimal
@@ -41,18 +42,21 @@ namespace Estudo_C_Sharp
             Console.WriteLine(variavelDinamica);
             variavelDinamica = 245;
             Console.WriteLine(variavelDinamica);
+            */
 
-
-
-
-
-            Console.WriteLine("Hello World!");  // Comando para escrever na tela
+            //Console.WriteLine("Hello World!");  // Comando para escrever na tela
             // Equivalente - Console.Write("Hello World! \n");
-            Console.Write("Meu nome é Gabriel Marques \n");
-            Console.ReadLine();             // Aguardar o usuário digitar
+            //Console.Write("Meu nome é Gabriel Marques \n");
+            //Console.ReadLine();             // Aguardar o usuário digitar
 
 
+            // Constantes - Definido o valor apenas uma vez
+            // constante | tipo | nome | valor
+            const float PI = 3.14f;
+            Console.WriteLine(PI);
 
+
+            Console.ReadLine();
         }
     }
 }
