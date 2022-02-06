@@ -64,11 +64,17 @@ namespace Estudo_C_Sharp
             Console.WriteLine(nome);
             */
 
-            if (1 > 20)
+            int a = 10;
+            int b = 20;
+            int c = 2;
+
+            // && (E ou AND) e || (OU/OR)
+
+            if (a > b)
             {
                 Console.WriteLine("É verdade! ");
             }
-            else if (20 == 20)
+            else if (a > c)
             {
                 Console.WriteLine("Execultou o Elseif!");
             }
