@@ -52,8 +52,18 @@ namespace Estudo_C_Sharp
 
             // Constantes - Definido o valor apenas uma vez
             // constante | tipo | nome | valor
-            const float PI = 3.14f;
-            Console.WriteLine(PI);
+            //const float PI = 3.14f;
+            //Console.WriteLine(PI);
+
+            /*
+            // Coletando informações do usuário
+            string nome = "";
+            Console.WriteLine("Escreve o seu nome: ");
+            nome = Console.ReadLine();
+            Console.WriteLine("Seu nome é: ");
+            Console.WriteLine(nome);
+            */
+
 
 
             Console.ReadLine();
