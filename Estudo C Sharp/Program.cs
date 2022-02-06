@@ -64,6 +64,7 @@ namespace Estudo_C_Sharp
             Console.WriteLine(nome);
             */
 
+            /*
             int a = 10;
             int b = 20;
             int c = 2;
@@ -82,6 +83,28 @@ namespace Estudo_C_Sharp
             {
                 Console.WriteLine("É mentira!");
             }
+            */
+
+
+           
+            Console.WriteLine("Digite a sua idade");
+            // Console.ReadLine(); - Coleta uma string
+            int idade = int.Parse(Console.ReadLine()); //- Convertendo de string para int
+
+            if (idade >=0 && idade <= 11)
+            {
+                Console.WriteLine("Você é uma criança!");
+            } else if (idade >= 12 && idade <= 18)
+            {
+                Console.WriteLine("Você é um adolescente!");
+            } else if (idade>= 19 && idade <= 60)
+            {
+                Console.WriteLine("Você é uma adulto!");
+            }
+            else
+            {
+                Console.WriteLine("Você é um idoso!");
+            } 
 
 
 
