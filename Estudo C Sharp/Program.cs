@@ -86,29 +86,59 @@ namespace Estudo_C_Sharp
             */
 
 
-           
-            Console.WriteLine("Digite a sua idade");
-            // Console.ReadLine(); - Coleta uma string
-            int idade = int.Parse(Console.ReadLine()); //- Convertendo de string para int
+            /*
+             Console.WriteLine("Digite a sua idade");
+             // Console.ReadLine(); - Coleta uma string
+             int idade = int.Parse(Console.ReadLine()); //- Convertendo de string para int
 
-            if (idade >=0 && idade <= 11)
-            {
-                Console.WriteLine("Você é uma criança!");
-            } else if (idade >= 12 && idade <= 18)
-            {
-                Console.WriteLine("Você é um adolescente!");
-            } else if (idade>= 19 && idade <= 60)
-            {
-                Console.WriteLine("Você é uma adulto!");
-            }
-            else
-            {
-                Console.WriteLine("Você é um idoso!");
-            } 
+             if (idade >=0 && idade <= 11)
+             {
+                 Console.WriteLine("Você é uma criança!");
+             } else if (idade >= 12 && idade <= 18)
+             {
+                 Console.WriteLine("Você é um adolescente!");
+             } else if (idade>= 19 && idade <= 60)
+             {
+                 Console.WriteLine("Você é uma adulto!");
+             }
+             else
+             {
+                 Console.WriteLine("Você é um idoso!");
+             } */
 
+            //Usando funções
+            ExibirMsg();
+            GerarPreco(60, "Computador");
 
+            Console.WriteLine(Somar(10, 20, 30));
 
             Console.ReadLine();
         }
+
+        // static - Será abordado quando for estudar Orientação Objeto
+        // Criando uma função
+        // ? | retorno | nome           void - Vazio ==> Função não retorna nada
+        //                              int - Iremos retonar um valor inteiro
+        //                              string  Retonar um valor string.
+        static void ExibirMsg()
+        {
+            Console.WriteLine("Esse sistema é show de bola!");
+            Console.WriteLine("Estou usando funções");
+            Console.WriteLine("Bem vindo!");
+        }
+
+        static void GerarPreco(int preco, string nome)
+        {
+            Console.WriteLine("Nome do produto: " + nome);
+            Console.WriteLine(preco);
+        }
+
+        static int Somar(int a, int b, int c)
+        {
+            int resultadoFinal = a + b + c;
+            return resultadoFinal;
+        }
+
+
     }
 }
