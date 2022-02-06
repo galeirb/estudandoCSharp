@@ -114,6 +114,8 @@ namespace Estudo_C_Sharp
             Console.WriteLine(Somar(10, 20, 30));
             */
 
+            // ARRAY
+            /*
             string[] produtos = new string[5]
             {
                 "See of thieves", //0
@@ -124,7 +126,24 @@ namespace Estudo_C_Sharp
             };
 
             int[] valores = { 40, 50, 60, 70, 80 }; //Forma mais simples de definir um array
+            */
 
+            //função SWITCH
+            string cor = "Azul";
+            cor = "Amarelo";
+
+            switch (cor) //Utilizado apenas para IGUALDADE
+            {
+                case "Vermelho":
+                    Console.WriteLine("A cor e Vermelho!");
+                    break;
+                case "Azul":
+                    Console.WriteLine("A cor é Azul!");
+                    break;
+                default:
+                    Console.WriteLine("Sua cor favorita eu não sei!");
+                    break;
+            }
 
 
             Console.ReadLine();
