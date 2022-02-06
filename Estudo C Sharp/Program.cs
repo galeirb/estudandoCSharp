@@ -107,10 +107,25 @@ namespace Estudo_C_Sharp
              } */
 
             //Usando funções
+            /*
             ExibirMsg();
             GerarPreco(60, "Computador");
 
             Console.WriteLine(Somar(10, 20, 30));
+            */
+
+            string[] produtos = new string[5]
+            {
+                "See of thieves", //0
+                "FIFA",         //1
+                "Minecraft",    //2
+                "Half-life",    //3
+                "Portal"        //4
+            };
+
+            int[] valores = { 40, 50, 60, 70, 80 }; //Forma mais simples de definir um array
+
+
 
             Console.ReadLine();
         }
