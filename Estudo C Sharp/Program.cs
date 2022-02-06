@@ -64,6 +64,19 @@ namespace Estudo_C_Sharp
             Console.WriteLine(nome);
             */
 
+            if (1 > 20)
+            {
+                Console.WriteLine("É verdade! ");
+            }
+            else if (20 == 20)
+            {
+                Console.WriteLine("Execultou o Elseif!");
+            }
+            else
+            {
+                Console.WriteLine("É mentira!");
+            }
+
 
 
             Console.ReadLine();
