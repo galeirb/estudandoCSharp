@@ -1,0 +1,7 @@
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\bin\Debug\Estudo C Sharp.exe.config
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\bin\Debug\Estudo C Sharp.exe
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\bin\Debug\Estudo C Sharp.pdb
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\obj\Debug\Estudo C Sharp.csproj.AssemblyReference.cache
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\obj\Debug\Estudo C Sharp.csproj.CoreCompileInputs.cache
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\obj\Debug\Estudo C Sharp.exe
+D:\OneDrive\1 - UFAC\Engenharia Eletrica\10º Período\TCC\Interface Gráfica\estudandoCSharp\Estudo C Sharp\obj\Debug\Estudo C Sharp.pdb
